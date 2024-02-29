@@ -1,10 +1,3 @@
-/*
- * wifi_info.h
- *
- *  Created on: 2020-05-15
- *      Author: Mixiaoxiao (Wang Bin)
- */
-
 #ifndef WIFI_INFO_H_
 #define WIFI_INFO_H_
 #if defined(ESP8266)
@@ -13,8 +6,8 @@
 #include <WiFi.h>
 #endif
 
-const char *ssid = "Hz1Modem";
-const char *password = "3s22l071bg83";
+const char *ssid = "wifi-id";
+const char *password = "wifi-psw";
 
 void wifi_connect() {
 	WiFi.persistent(false);
